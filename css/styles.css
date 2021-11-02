@@ -1,0 +1,159 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #fa2c4b;
+    color:white
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+
+
+
+}
+.navbar-brand{
+    color: rgb(29, 27, 26);
+    width: 1000px;
+}
+
+.navbar{
+    padding-bottom: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.631);
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.iphone{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+#features{
+    padding:7% 15%;
+    background-color: white;
+    position: relative;
+    
+}
+.tags{
+    text-align: center;
+    padding:5%;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+p{
+    color: rgb(143, 138, 138);
+}
+
+.fas{
+    padding-bottom: 1.5rem;
+    color: rgb(252, 98, 98);
+}
+
+.fas:hover{
+    color: #fa2c4b;
+}
+
+#testimonials{
+    text-align: center;
+    color: white;
+    background-color: #fa2c4b;
+}
+
+.pebblesimage{
+    width:20%;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+.testimonial-image{
+    width:20%;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #fa2c4b;
+    text-align: center;
+    padding-bottom: 5rem;
+   
+}
+
+.pressimg{
+    width: 12%;
+   margin:5% 3%;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:3% 2% ;
+    
+}
+@media(max-width:1028px)
+{
+.h1{
+    text-align: center;
+}
+
+.iphone{
+    position:static;
+    transform: rotate(0);
+    width: 50%;
+}
+
+}
+
+#cta{
+    color: white;
+    background-color: #fa2c4b;
+    text-align: center;
+    padding: 7% 15%;
+
+
+}
+.cta-heading{
+    font-family: 'Montserrat';
+    
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.smedia{
+    margin: 20px 10px;
+
+}
